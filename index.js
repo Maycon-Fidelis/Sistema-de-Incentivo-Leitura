@@ -3,8 +3,7 @@ const app = express();
 const hbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const Gerar_palavras = require('
-models/api_palavras');
+const Gerar_palavras = require('models/api_palavras');
 const PORT = process.env.PORT || 3000;
 
 //CONFIGURAÇÃO DO HANDLEBARS
@@ -18,8 +17,6 @@ app.use(express.static('public'));
 
 // app.use(bodyParser.urlencoded({extended:false}));
 
-// IMPORTANDO O MODEL USUARIO
-// const Usuario = require('./models/Usuario');
 // CONFIGURAÇÕES DAS SESSIONS
 
 async function Gerar_palavra_model(numero, res) {
