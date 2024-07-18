@@ -1,7 +1,7 @@
 const axios = require('axios');
 
 const apiKey = process.env.API_KEY; // Mudar para sua API
-
+console.log(apiKey);
 const apiUrl = 'https://api.openai.com/v1/chat/completions'; 
 
 async function EnviarPergunta(pergunta) {
