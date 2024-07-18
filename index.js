@@ -3,7 +3,7 @@ const app = express();
 const hbs = require('express-handlebars');
 const bodyParser = require('body-parser');
 const session = require('express-session');
-const Gerar_palavras = require('models/api_palavras');
+const Gerar_palavras = require('./models/api_palavras');
 const PORT = process.env.PORT || 3000;
 
 //CONFIGURAÇÃO DO HANDLEBARS
