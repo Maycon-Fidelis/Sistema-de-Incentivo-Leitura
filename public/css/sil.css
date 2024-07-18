@@ -1,0 +1,31 @@
+*{
+    overflow-y: hidden;
+}
+
+body{
+    background-color: #F0E8E8;
+}
+
+.botao_som{
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+
+#efeito_acerto.fade-out, #efeito_erro.fade-out {
+    opacity: 0;
+    transition: opacity 1.5s ease-in-out;
+}
+
+#sobreposicao{
+    position: fixed;          
+}
+
+.body_atras.ativado{
+    opacity: 0.5;
+}
+
+.botao_personalizado{
+    font-size: 25px;
+}
